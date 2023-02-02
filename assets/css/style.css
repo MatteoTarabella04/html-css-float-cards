@@ -3,6 +3,7 @@
     --h1: #e53170;
     --bg-w: #fffffe;
     --bg-t-black: #0f0e17;
+    --links: #45a8d7;
 }
 
 * {
@@ -29,8 +30,18 @@ header {
     margin: 2rem;
 }
 
-div > h2, p {
+div>h2,
+p {
     padding: 0.25rem;
+}
+
+a {
+    color: var(--links);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
