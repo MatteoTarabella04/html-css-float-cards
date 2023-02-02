@@ -15,6 +15,9 @@ body {
     font-family: 'Fredoka', sans-serif;
     background-color: var(--bg-w);
     color: var(--bg-t-black);
+
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header h1 {
@@ -26,4 +29,10 @@ header h1 {
 
 header {
     margin: 2rem;
+}
+
+
+.desc {
+    text-align: center;
+    font-weight: bold;
 }
