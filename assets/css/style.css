@@ -65,9 +65,13 @@ a:hover {
 
 .colums .col {
     float: left;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 2rem);
 
     background-color: var(--bg-t-black);
+    box-shadow: 2px 2px 10px var(--bg-t-black);
+
+    margin-left: 1rem;
+    margin-bottom: 3rem;
 
 }
 
