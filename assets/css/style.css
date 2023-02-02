@@ -15,9 +15,6 @@ body {
     font-family: 'Fredoka', sans-serif;
     background-color: var(--bg-w);
     color: var(--bg-t-black);
-
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 header h1 {
@@ -25,14 +22,58 @@ header h1 {
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 header {
     margin: 2rem;
 }
 
+div > h2, p {
+    padding: 0.25rem;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.debug .col {
+    height: 200px;
+    background-color: var(--bg-t-black);
+    border: 1px solid red;
+}
 
 .desc {
     text-align: center;
     font-weight: bold;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+}
+
+.colums .col {
+    float: left;
+    width: calc(100% / 3);
+
+    background-color: var(--bg-t-black);
+
+}
+
+.col img {
+    float: left;
+    height: 100px;
+    margin-right: 0.5rem;
+}
+
+.content {
+    float: left;
+    color: var(--bg-w);
+}
+
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
