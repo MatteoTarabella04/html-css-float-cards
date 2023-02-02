@@ -1,0 +1,29 @@
+/* root */
+:root {
+    --h1: #e53170;
+    --bg-w: #fffffe;
+    --bg-t-black: #0f0e17;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: var(--bg-w);
+    color: var(--bg-t-black);
+}
+
+header h1 {
+    color: var(--h1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+header {
+    margin: 2rem;
+}
